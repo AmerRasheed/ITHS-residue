@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class v361 {
+
+  public static void main(String [] args){
+
+    float result = calculateTax(100000);
+      System.out.println(result);
+}
+
+public static float calculateTax(float x){
+float result;
+  if (x>100000)
+     result=x*40/100;
+  else
+     result=x*30/100;
+return result;
+
+}
